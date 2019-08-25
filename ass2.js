@@ -107,7 +107,7 @@ function reg()
     var regex=/^[A-Z]/;
     if(regex.test(proudectNameInp.value) == false)
         {
-          alert("false");
+          alert("Enter productName frist character Uppercase   like  Camera");
           return false;   
         }
     else
